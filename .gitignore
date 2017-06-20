@@ -1,0 +1,12 @@
+.bash_history
+.bashrc.swp
+.cache
+.viminfo
+.wget-hsts
+
+.ssh/authorized_keys
+.ssh/id_rsa
+.ssh/id_rsa.pub
+.ssh/known_hosts
+
+
