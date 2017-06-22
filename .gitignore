@@ -1,12 +1,29 @@
-.bash_history
-.bashrc.swp
-.cache
-.viminfo
-.wget-hsts
 
+# User files
+.bash_history
+
+# System files
+.cache/*
+**/.viminfo
+**/.wget-hsts
+**/.DS_Store
+**.swp
+**.log
+
+# SSH
 .ssh/authorized_keys
 .ssh/id_rsa
 .ssh/id_rsa.pub
 .ssh/known_hosts
 
+# C9
+.c9/*
+!.c9/user.settings
+c9sdk/*
+
+
+# Node.JS 
+.npm
+node/*
+node_modules/*
 

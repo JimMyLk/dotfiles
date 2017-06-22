@@ -1,0 +1,139 @@
+{
+    "ace": {
+        "@animatedScroll": true,
+        "@antialiasedfonts": false,
+        "@behavioursEnabled": true,
+        "@cursorStyle": "ace",
+        "@displayIndentGuides": true,
+        "@fadeFoldWidgets": true,
+        "@fontFamily": "Monaco, Menlo, Ubuntu Mono, Consolas, source-code-pro, monospace",
+        "@fontSize": "12",
+        "@highlightActiveLine": true,
+        "@highlightGutterLine": true,
+        "@highlightSelectedWord": true,
+        "@keyboardmode": "vim",
+        "@mergeUndoDeltas": "off",
+        "@overwrite": false,
+        "@printMarginColumn": "80",
+        "@scrollPastEnd": "0.5",
+        "@scrollSpeed": "2",
+        "@selectionStyle": "line",
+        "@showFoldWidgets": true,
+        "@showGutter": true,
+        "@showInvisibles": false,
+        "@showLineNumbers": true,
+        "@showPrintMargin": true,
+        "@theme": "ace/theme/cloud9_night_low_color",
+        "@useWrapMode": false,
+        "@wrapBehavioursEnabled": false,
+        "@wrapToView": true,
+        "custom-types": {
+            "json()": {
+                "settings": "javascript"
+            }
+        },
+        "statusbar": {
+            "@show": true
+        }
+    },
+    "breakpoints": {
+        "@active": "true"
+    },
+    "build": {
+        "@autobuild": false
+    },
+    "collab": {
+        "@showbubbles": "true"
+    },
+    "config": {
+        "init.js": {
+            "json()": "// You can access plugins via the 'services' global variable\n/*global services, plugin*/\n\n// to load plugins use\n// services.pluginManager.loadPackage([\n//     \"https://<user>.github.io/<project>/build/package.<name>.js\",\n//     \"~/.c9/plugins/<name>/package.json\",\n// ]);\n\nrequire([\"plugins/c9.ide.ace.keymaps/vim/keymap\"], function(vim) {\n    vim.map(\"J\", \"8j\", \"normal\")\n    vim.map(\"K\", \"8k\", \"normal\")\n    vim.map(\",b\", \"c9:build\", \"normal\")\n    vim.map(\",g\", \"c9:run\", \"normal\")\n    vim.map(\"jk\", \"<Esc>\", \"insert\")\n    vim.map(\"<C-f>\", \"c9:find\", \"normal\")\n    vim.map(\"<C-e>\", \"c9:navigate\");\n    vim.map(\"<C-x>\", \"c9:cut\", \"normal\");\n    vim.map(\"<C-c>\", \"c9:copy\", \"normal\");\n    vim.map(\"<C-p>\", \"c9:paste\", \"normal\");\n});\n\n"
+        }
+    },
+    "debug": {
+        "@autoshow": true,
+        "@pause": 0
+    },
+    "findinfiles": {
+        "@clear": "true",
+        "@consolelaunch": "false",
+        "@fullpath": "false",
+        "@project": "/",
+        "@scrolldown": "false"
+    },
+    "general": {
+        "@animateui": true,
+        "@automerge": "false",
+        "@confirmmerge": "true",
+        "@downloadFilesAs": "auto",
+        "@preview-navigate": false,
+        "@preview-tree": false,
+        "@revealfile": false,
+        "@skin": "dark",
+        "@treestyle": "default"
+    },
+    "key-bindings": {
+        "@platform": "auto",
+        "@preset": "default"
+    },
+    "language": {
+        "@continuousCompletion": true,
+        "@enterCompletion": true,
+        "@hints": true,
+        "@instanceHighlight": true,
+        "@overrideMultiselectShortcuts": true
+    },
+    "metadata": {
+        "@undolimit": "100"
+    },
+    "openfiles": {
+        "@hidetree": "false",
+        "@show": false
+    },
+    "output": {
+        "@backgroundColor": "#003a58",
+        "@foregroundColor": "#FFFFFF",
+        "@keepOutput": "false",
+        "@nosavequestion": "false",
+        "@selectionColor": "#225477"
+    },
+    "preview": {
+        "@default": "preview.browser",
+        "@onSave": "false",
+        "@running_app": "false"
+    },
+    "projecttree": {
+        "@hiddenFilePattern": "*.pyc, __pycache__, .*",
+        "@scope": "false",
+        "@showhidden": true
+    },
+    "runconfig": {
+        "@debug": "true",
+        "@saveallbeforerun": "true",
+        "@showruncfglist": "false"
+    },
+    "tabs": {
+        "@asterisk": true,
+        "@autoclosepanes": true,
+        "@show": true,
+        "@title": "false"
+    },
+    "terminal": {
+        "@antialiasedfonts": true,
+        "@backgroundColor": "#153649",
+        "@blinking": "false",
+        "@defaultEnvEditor": "false",
+        "@fontfamily": "Ubuntu Mono, Menlo, Consolas, monospace",
+        "@fontsize": "12",
+        "@foregroundColor": "#FFFFFF",
+        "@scrollback": 1000,
+        "@selectionColor": "#515D77"
+    },
+    "tour": {
+        "@default-complete": false
+    },
+    "welcome": {
+        "@first": true,
+        "@switched": true
+    }
+}
