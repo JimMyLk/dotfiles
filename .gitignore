@@ -27,3 +27,6 @@ c9sdk/*
 node/*
 node_modules/*
 
+# Scripts collection
+scripts/jmC9run.sh
+
