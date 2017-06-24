@@ -30,3 +30,6 @@ node_modules/*
 # Scripts collection
 scripts/jmC9run.sh
 
+# zsh / oh-my-zsh
+.zsh_history
+
