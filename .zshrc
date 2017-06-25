@@ -7,8 +7,9 @@
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-# ZSH_THEME="robbyrussell"
-ZSH_THEME="steeef"
+  ZSH_THEME="robbyrussell"
+# ZSH_THEME="steeef"
+# ZSH_THEME="amuse"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -34,7 +35,7 @@ ZSH_THEME="steeef"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
-
+  
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
 # much, much faster.
@@ -52,12 +53,12 @@ ZSH_THEME="steeef"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git heroku gulp yarn vundle vagrant)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-
+ 
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -84,3 +85,16 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+
+
+# ------------------------------------------------------------------------------
+# USER CONFIGURATION
+# ------------------------------------------------------------------------------
+
+COMPLETION_WAITING_DOTS="true"
+export JM=jm_dev
+export LANG=en_US.UTF-8
+
+alias cl='clear'
+
