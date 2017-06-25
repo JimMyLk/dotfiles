@@ -97,4 +97,5 @@ export JM=jm_dev
 export LANG=en_US.UTF-8
 
 alias cl='clear'
+alias ll='ls -laF'
 
