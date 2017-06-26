@@ -33,3 +33,7 @@ scripts/jmC9run.sh
 # zsh / oh-my-zsh
 .zsh_history
 
+# Vim
+.vim/bundle/*
+
+
