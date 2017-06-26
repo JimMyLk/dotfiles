@@ -34,11 +34,13 @@ scripts/jmC9run.sh
 .zsh_history
 
 # Spf13-vim
+.spf13-vim-3/*
 .vim/bundle/*
 .vimbackup/*
 .vimviews/*
 .vimundo/*
 .vimswap/*
 !.vim/bundle/.gitkeep
+!.spf13-vim-3/.gitkeep
 
 
