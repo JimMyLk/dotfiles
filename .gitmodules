@@ -1,0 +1,15 @@
+[submodule "spf13-vim"]
+    path = .spf13-vim-3
+    url = git@github.com:spf13/spf13-vim.git
+    ignore = all
+
+[submodule "oh-my-zsh"]
+    path = .oh-my-zsh
+    url = git@github.com:robbyrussell/oh-my-zsh.git
+    ignore = all
+
+[submodule "c9sdk"]
+    path = c9sdk
+    url = git://github.com/c9/core.git
+    ignore = all
+
