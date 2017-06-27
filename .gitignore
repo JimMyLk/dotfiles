@@ -9,6 +9,7 @@
 **/.DS_Store
 **.swp
 **.log
+**.orig
 
 # SSH
 .ssh/authorized_keys
@@ -20,6 +21,7 @@
 .c9/*
 !.c9/user.settings
 c9sdk/*
+!c9sdk/.gitkeep
 
 # Node.JS 
 .npm
@@ -34,7 +36,7 @@ scripts/jmC9run.sh
 
 # Oh-my-zsh
 .oh-my-zsh/*
-.oh-my-zsh/.gitkeep
+!.oh-my-zsh/.gitkeep
 
 # Vim
 .vim/bundle/*
@@ -43,7 +45,6 @@ scripts/jmC9run.sh
 .vimundo/*
 .vimswap/*
 !.vim/bundle/.gitkeep
-!.spf13-vim-3/.gitkeep
 
 # Spf13-Vim
 .spf13-vim-3/*
