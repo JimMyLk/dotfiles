@@ -21,7 +21,6 @@
 !.c9/user.settings
 c9sdk/*
 
-
 # Node.JS 
 .npm
 node/*
@@ -30,15 +29,24 @@ node_modules/*
 # Scripts collection
 scripts/jmC9run.sh
 
-# zsh / oh-my-zsh
+# zsh 
 .zsh_history
 
-# Spf13-vim
+# Oh-my-zsh
+.oh-my-zsh/*
+.oh-my-zsh/.gitkeep
+
+# Vim
 .vim/bundle/*
 .vimbackup/*
 .vimviews/*
 .vimundo/*
 .vimswap/*
 !.vim/bundle/.gitkeep
+
+# Spf13-Vim
+.spf13-vim-3/*
+!.spf13-vim-3/.gitkeep
+
 
 
