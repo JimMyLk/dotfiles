@@ -1,3 +1,12 @@
 
 :imap jk <Esc>
 
+nmap lh ^
+nmap le $
+
+nmap fw :w<CR>
+nmap fq :q<CR>
+nmap fwq :wq<CR>
+
+syntax on
+"color dracula
