@@ -32,11 +32,16 @@ scripts/jmC9run.sh
 # zsh 
 .zsh_history
 
+<<<<<<< HEAD
 # Oh-my-zsh
 .oh-my-zsh/*
 .oh-my-zsh/.gitkeep
 
 # Vim
+=======
+# Spf13-vim
+.spf13-vim-3/*
+>>>>>>> 74da79baa9cd0ffc4d020e734a876544187d8e37
 .vim/bundle/*
 .vimbackup/*
 .vimviews/*
