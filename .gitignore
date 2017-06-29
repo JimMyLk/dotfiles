@@ -1,6 +1,7 @@
 
 # User files
 .bash_history
+/download
 
 # System files
 .cache/*
@@ -50,5 +51,8 @@ scripts/jmC9run.sh
 .spf13-vim-3/*
 !.spf13-vim-3/.gitkeep
 
+# Composer
+.composer/*
+!.composer/.gitkeep
 
 
