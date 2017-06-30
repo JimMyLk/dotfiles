@@ -55,4 +55,7 @@ scripts/jmC9run.sh
 .composer/*
 !.composer/.gitkeep
 
+# Shadowsocks 
+scripts/shadowsocks-all.log
+
 
