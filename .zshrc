@@ -101,4 +101,5 @@ alias cl='clear'
 
 alias z='zsh'
 
+export PATH="$HOME/.composer/vendor/bin:$PATH"
 

@@ -29,6 +29,10 @@ c9sdk/*
 node/*
 node_modules/*
 
+# Ruby Gem
+.gem/*
+!.gem/.gitkeep
+
 # Scripts collection
 scripts/jmC9run.sh
 
@@ -54,10 +58,14 @@ scripts/jmC9run.sh
 # Composer
 .composer/*
 !.composer/.gitkeep
+!.composer/composer.json
 
 # Shadowsocks 
 .shadowsocks/*
 !.shadowsocks/shadowsocks-all.sh
 !.shadowsocks/config.json.example
 
+# Drush for Drupal
+.drush/*
+!.drush/.gitkeep
 
