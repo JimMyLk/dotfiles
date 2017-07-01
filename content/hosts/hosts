@@ -8,3 +8,6 @@ ff02::2 ip6-allrouters
 
 127.0.0.1 JMXerver
 ::1       JMXerver
+
+45.32.12.232 JMX_API
+
