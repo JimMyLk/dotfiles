@@ -456,8 +456,8 @@ install_select() {
 
 install_prepare() {
     echo "Please enter password for ${software[${selected}-1]}"
-    read -p "(default password: teddysun.com):" shadowsockspwd
-    [ -z "${shadowsockspwd}" ] && shadowsockspwd="teddysun.com"
+    read -p "(default password: 123456):" shadowsockspwd
+    [ -z "${shadowsockspwd}" ] && shadowsockspwd="123456"
     echo
     echo "password = ${shadowsockspwd}"
     echo

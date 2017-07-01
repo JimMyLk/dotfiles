@@ -1,8 +1,8 @@
 
 :imap jk <Esc>
 
-nmap lh ^
-nmap le $
+"nmap lh ^
+"nmap le $
 
 nmap fw :w<CR>
 nmap fq :q<CR>
