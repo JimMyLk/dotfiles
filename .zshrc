@@ -103,3 +103,5 @@ alias z='zsh'
 
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 
+alias ping='ping -c 4'
+
