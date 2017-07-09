@@ -3,6 +3,7 @@
 .bash_history
 /download
 
+
 # System files
 .cache/*
 **/.viminfo
@@ -12,36 +13,46 @@
 **.log
 **.orig
 
+
 # SSH
 .ssh/authorized_keys
 .ssh/id_rsa
 .ssh/id_rsa.pub
 .ssh/known_hosts
 
+
 # C9
 .c9/*
 !.c9/user.settings
 c9sdk/*
 !c9sdk/.gitkeep
+.codeintel/*
+
 
 # Node.JS 
 .npm
 node/*
 node_modules/*
 
+
 # Ruby Gem
 .gem/*
 !.gem/.gitkeep
 
+
 # Scripts collection
 scripts/jmC9run.sh
+
 
 # zsh 
 .zsh_history
 
+
 # Oh-my-zsh
 .oh-my-zsh/*
 !.oh-my-zsh/.gitkeep
+.zsh-update
+
 
 # Vim
 .vim/bundle/*
@@ -51,21 +62,26 @@ scripts/jmC9run.sh
 .vimswap/*
 !.vim/bundle/.gitkeep
 
+
 # Spf13-Vim
 .spf13-vim-3/*
 !.spf13-vim-3/.gitkeep
+
 
 # Composer
 .composer/*
 !.composer/.gitkeep
 !.composer/composer.json
 
+
 # Shadowsocks 
 .shadowsocks/*
 !.shadowsocks/shadowsocks-all.sh
 !.shadowsocks/config.json.example
 
+
 # Drush for Drupal
 .drush/*
 !.drush/.gitkeep
+
 
