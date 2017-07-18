@@ -72,6 +72,10 @@
         "@skin": "dark",
         "@treestyle": "default"
     },
+    "imgeditor": {
+        "@smooth": false,
+        "@zoom": 100
+    },
     "key-bindings": {
         "@platform": "auto",
         "@preset": "default"
