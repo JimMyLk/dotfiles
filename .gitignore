@@ -30,7 +30,7 @@ c9sdk/*
 .codeintel/*
 
 
-# Node.JS 
+# Node.JS
 .npm
 node/*
 node_modules/*
@@ -45,7 +45,7 @@ node_modules/*
 scripts/jmC9run.sh
 
 
-# zsh 
+# zsh
 .zsh_history
 
 
@@ -75,7 +75,7 @@ scripts/jmC9run.sh
 !.composer/composer.json
 
 
-# Shadowsocks 
+# Shadowsocks
 .shadowsocks/*
 !.shadowsocks/shadowsocks-all.sh
 !.shadowsocks/config.json.example
@@ -84,5 +84,8 @@ scripts/jmC9run.sh
 # Drush for Drupal
 .drush/*
 !.drush/.gitkeep
+
+# MySQL
+.mysql_history
 
 
