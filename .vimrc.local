@@ -9,4 +9,6 @@ nmap fq :q<CR>
 nmap fwq :wq<CR>
 
 syntax on
+
 "color dracula
+"
