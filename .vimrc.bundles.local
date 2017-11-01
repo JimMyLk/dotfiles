@@ -1,4 +1,7 @@
 
 Plugin 'dracula/vim'
 Plugin 'editorconfig/editorconfig-vim'
+Plugin 'heracek/HTML-AutoCloseTag', {'name': 'HTML-AutoCloseTag2'}
+
+UnBundle 'amirh/HTML-AutoCloseTag'
 
